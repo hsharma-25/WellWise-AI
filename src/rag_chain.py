@@ -182,7 +182,7 @@ final_chain = prompt_input_chain | prompt | llm
 
 if __name__ == "__main__":
     question = (
-        "What are the different well no. available?"
+        "What were the major setbacks?"
     )
 
     result = final_chain.invoke(question)
