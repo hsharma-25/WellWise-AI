@@ -7,8 +7,6 @@ from pydantic import BaseModel, Field
 from typing import Optional
 from dotenv import load_dotenv
 
-from split_docs import chunks
-
 load_dotenv()
 
 embedding_model = OpenAIEmbeddings(
